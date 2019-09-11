@@ -39,6 +39,14 @@
       "options": {
         "nestRemoting": true
       }
+    },
+    "account": {
+      "type": "belongsTo",
+      "model": "account",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
     }
   },
   "acls": [],

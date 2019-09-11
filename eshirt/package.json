@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start": "mongod | nodemon node .",
     "posttest": "npm run lint"
   },
   "dependencies": {
