@@ -32,17 +32,17 @@
   },
   "validations": [],
   "relations": {
-    "categories": {
+    "account": {
       "type": "belongsTo",
-      "model": "Category",
+      "model": "account",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
       }
     },
-    "account": {
+    "category": {
       "type": "belongsTo",
-      "model": "account",
+      "model": "Category",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
